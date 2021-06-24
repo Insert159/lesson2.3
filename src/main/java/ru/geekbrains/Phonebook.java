@@ -26,6 +26,7 @@ import java.util.List;
                 } else {
                     System.out.println(String.format("Номер %s уже существует для фамилии %s", number, surname));
                 }
+
             } else {
                 book.put(surname, new ArrayList<>(Arrays.asList(number)));
                 System.out.println(String.format("Номер %s добавлен для фамилии %s", number, surname));
